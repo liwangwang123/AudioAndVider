@@ -17,6 +17,7 @@
 		81F4016C1BD76D1600414801 /* AudioAndViderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F4016B1BD76D1600414801 /* AudioAndViderTests.m */; };
 		81F401761BD77BA000414801 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F401751BD77BA000414801 /* AudioToolbox.framework */; };
 		81F401781BD77E0F00414801 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F401771BD77E0F00414801 /* AVFoundation.framework */; };
+		81F4017B1BD792D600414801 /* VideoAndImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F4017A1BD792D600414801 /* VideoAndImageController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		81F4016B1BD76D1600414801 /* AudioAndViderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioAndViderTests.m; sourceTree = "<group>"; };
 		81F401751BD77BA000414801 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		81F401771BD77E0F00414801 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		81F401791BD792D600414801 /* VideoAndImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoAndImageController.h; sourceTree = "<group>"; };
+		81F4017A1BD792D600414801 /* VideoAndImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoAndImageController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 				81F401511BD76D1600414801 /* AppDelegate.m */,
 				81F401561BD76D1600414801 /* ViewController.h */,
 				81F401571BD76D1600414801 /* ViewController.m */,
+				81F401791BD792D600414801 /* VideoAndImageController.h */,
+				81F4017A1BD792D600414801 /* VideoAndImageController.m */,
 				81F401591BD76D1600414801 /* Main.storyboard */,
 				81F4015C1BD76D1600414801 /* Images.xcassets */,
 				81F4015E1BD76D1600414801 /* LaunchScreen.xib */,
@@ -232,6 +237,7 @@
 			files = (
 				81F401521BD76D1600414801 /* AppDelegate.m in Sources */,
 				81F401551BD76D1600414801 /* AudioAndVider.xcdatamodeld in Sources */,
+				81F4017B1BD792D600414801 /* VideoAndImageController.m in Sources */,
 				81F401581BD76D1600414801 /* ViewController.m in Sources */,
 				81F4014F1BD76D1600414801 /* main.m in Sources */,
 			);
