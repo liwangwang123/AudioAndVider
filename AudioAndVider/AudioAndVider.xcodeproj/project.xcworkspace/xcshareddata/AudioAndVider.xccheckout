@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2C938915-DDCD-4388-9D67-A275553E1630</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AudioAndVider</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2550296E6FB2AA8639C7A319E50663ABB49032E5</key>
+		<string>https://github.com/liwangwang123/AudioAndVider.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AudioAndVider/AudioAndVider.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2550296E6FB2AA8639C7A319E50663ABB49032E5</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/liwangwang123/AudioAndVider.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2550296E6FB2AA8639C7A319E50663ABB49032E5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2550296E6FB2AA8639C7A319E50663ABB49032E5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AudioAndVider</string>
+		</dict>
+	</array>
+</dict>
+</plist>

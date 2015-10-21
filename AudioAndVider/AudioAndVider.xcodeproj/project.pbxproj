@@ -15,6 +15,8 @@
 		81F4015D1BD76D1600414801 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81F4015C1BD76D1600414801 /* Images.xcassets */; };
 		81F401601BD76D1600414801 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81F4015E1BD76D1600414801 /* LaunchScreen.xib */; };
 		81F4016C1BD76D1600414801 /* AudioAndViderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F4016B1BD76D1600414801 /* AudioAndViderTests.m */; };
+		81F401761BD77BA000414801 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F401751BD77BA000414801 /* AudioToolbox.framework */; };
+		81F401781BD77E0F00414801 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F401771BD77E0F00414801 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		81F401651BD76D1600414801 /* AudioAndViderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioAndViderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F4016A1BD76D1600414801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81F4016B1BD76D1600414801 /* AudioAndViderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioAndViderTests.m; sourceTree = "<group>"; };
+		81F401751BD77BA000414801 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		81F401771BD77E0F00414801 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81F401781BD77E0F00414801 /* AVFoundation.framework in Frameworks */,
+				81F401761BD77BA000414801 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +71,8 @@
 		81F401401BD76D1600414801 = {
 			isa = PBXGroup;
 			children = (
+				81F401771BD77E0F00414801 /* AVFoundation.framework */,
+				81F401751BD77BA000414801 /* AudioToolbox.framework */,
 				81F4014B1BD76D1600414801 /* AudioAndVider */,
 				81F401681BD76D1600414801 /* AudioAndViderTests */,
 				81F4014A1BD76D1600414801 /* Products */,
@@ -420,6 +428,7 @@
 				81F401711BD76D1600414801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81F401721BD76D1600414801 /* Build configuration list for PBXNativeTarget "AudioAndViderTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +437,7 @@
 				81F401741BD76D1600414801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
